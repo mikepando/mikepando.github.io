@@ -24,7 +24,7 @@
         "network": "linkedin",
         "username": "michael-pandolfelli",
         "url": "https://www.linkedin.com/in/michael-pandolfelli"
-      },
+      }
     ]
   },
   "interests": [
@@ -47,6 +47,7 @@
       "name": "privacy",
       "keywords": [
       ]
+    }
   ],
   "skills": [
     {
