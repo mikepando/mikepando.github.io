@@ -6,7 +6,7 @@
     "email": "mike.pandolfelli@live.com",
     "phone": "",
     "website": "https://mikepando.github.io",
-    "summary": "I am a recent graduate of Manhattan College with a B.S. in Computer Information Systems in the Department of Business.",
+    "summary": "I am a recent graduate of Manhattan College with a B.S. in Computer Information Systems in the Department of Business. Technology is a core part of my identity.",
     "location": {
       "address": "",
       "postalCode": "11946",
@@ -29,7 +29,7 @@
   },
   "interests": [
     {
-      "name": "Bitcoin",
+      "name": "bitcoin",
       "keywords": [
         ]
     },
