@@ -1,49 +1,37 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Michael Pandolfelli",
     "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "picture": "https://github.com/mikepando/mikepando.github.io/images/headshot.png",
+    "email": "mike.pandolfelli@live.com",
+    "phone": "",
+    "website": "https://mikepando.github.io",
+    "summary": "I am a recent graduate of Manhattan College with a B.S. in Computer Information Systems in the Department of Business.",
     "location": {
       "address": "",
-      "postalCode": "96822",
-      "city": "Honolulu",
+      "postalCode": "11946",
+      "city": "Hampton Bays",
       "countryCode": "USA",
-      "region": "Hawaii"
+      "region": "New York"
     },
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "mikepando",
+        "url": "https://github.com/mikepando"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
+        "username": "michael-pandolfelli",
+        "url": "https://www.linkedin.com/in/michael-pandolfelli"
       },
-      {
-        "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
-      },
-      {
-        "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
-      }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
+      "name": "Bitcoin",
       "keywords": [
-        "Arduino",
-        "TI MSP430"
-      ]
+        ]
     },
     {
       "name": "data mining",
@@ -51,10 +39,14 @@
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "graphic design",
       "keywords": [
       ]
-    }
+    },
+    {
+      "name": "privacy",
+      "keywords": [
+      ]
   ],
   "skills": [
     {
