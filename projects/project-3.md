@@ -15,7 +15,7 @@ labels:
 summary: A project utilizing Alpha Vantage stock API and the Pandas library to plot hourly closing stock prices.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/stockpic.png">
+<img class="ui medium right floated rounded image" src="../images/stockwindowed.png">
 
 This project utlizes [Alpha Vantage](https://www.alphavantage.co/), an API library for financial data, alongside [Pandas library](https://pandas.pydata.org/), which features data structure and data analysis tools. Using these libraries, we are able to gather and plot the intra-day closing values of a designated public company.
 
