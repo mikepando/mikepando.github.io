@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/dls_icon.png
+image: images/pleyicon.png
 title: Exploring a Data Scrape
 permalink: projects/yelpDB-Flask-SQLite
 # All dates must be YYYY-MM-DD format!
@@ -14,7 +14,8 @@ labels:
 summary: A database was formed using data scraped from Yelp. This project is a web page that explores the database and displays the results. 
 ---
 
-<img class="ui medium right floated rounded image" src="../images/dlswindow.png"> 
+<img class="ui medium right floated rounded image" src="../images/pleywindow.png"> 
+<img class="ui medium right floated rounded image" src="../images/pleyresult.png"> 
 
 This is a project utilizing Flask and SQLite to allow us to search a database using Python. [Flask](https://www.alphavantage.co/), is a microframework used for local server. [SQLite](https://www.sqlite.org/index.html) is the library used to issue queries to the database.
 
