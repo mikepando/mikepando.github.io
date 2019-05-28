@@ -5,7 +5,7 @@ image: images/alpha_icon.png
 title: Closing Stock Price Charts
 permalink: projects/Alpha-Vantage-Pandas
 # All dates must be YYYY-MM-DD format!
-date: 2019-04-16
+date: 2019-03-16
 labels:
   - Python
   - Alpha Vantage
