@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/cotton-square.png
+image: images/alpha_icon.png
 title: Closing Stock Price Charts
 permalink: projects/Alpha-Vantage-Pandas
 # All dates must be YYYY-MM-DD format!
