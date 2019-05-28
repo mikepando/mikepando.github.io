@@ -15,14 +15,11 @@ labels:
 summary: A project utilizing Alpha Vantage stock API and the Pandas library to plot hourly closing stock prices.
 ---
 
-A small project in order to utlize the [Alpha Vantage](https://www.alphavantage.co/) API library alongside the [Pandas](https://pandas.pydata.org/) library to gather and plot the intra-day closing values of a designated public company.
+<img class="ui medium right floated rounded image" src="../images/stockpic.png">
 
-This project uses Jupyter notebook to allow sequential execution of python code, in order to generate a CSV of stock data, as well as an HTML page where plots of the closing prices are plotted hourly. This project was a test of Pandas visualization using stock data from the Alpha vantage API. The HTML page is pretty basic, but it just meant to be a simple representation of our data.
+This project utlizes [Alpha Vantage](https://www.alphavantage.co/), an API library for financial data, alongside [Pandas library](https://pandas.pydata.org/), which features data structure and data analysis tools. Using these libraries, we are able to gather and plot the intra-day closing values of a designated public company.
 
-Here is an example of the generated page:
-<hr>
-<img class="ui image" src="{{ site.baseurl }}/images/stockpic.png">
-<hr>
+In this project I gained experienced manipulating data frames and visualizing the outcome through the Pandas library. Since I was using stock data, I was able to manipulate the timestamp to display hourly data for two intra-day closing values, and then plot the resulting values. A for-loop was used to plot the values for the numerous stock hours per day, and then write the plots to the web page.  
 
 Source: <a href="https://github.com/mikepando/Alpha-Vantage-Pandas"><i class="large github icon "></i>mikepando/Alpha-Vantage-Pandas</a>
 
