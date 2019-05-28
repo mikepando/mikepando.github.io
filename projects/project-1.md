@@ -1,44 +1,26 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
-title: Micromouse
-permalink: projects/micromouse
+image: images/alpha_icon.png
+title: Closing Stock Price Charts
+permalink: projects/Alpha-Vantage-Pandas
 # All dates must be YYYY-MM-DD format!
-date: 2015-07-01
+date: 2019-04-16
 labels:
-  - Robotics
-  - Arduino
-  - C++
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+  - Python
+  - Alpha Vantage
+  - Pandas
+  - Jupyter
+  - GitHub
+summary: A project utilizing Alpha Vantage stock API and the Pandas library to plot hourly closing stock prices.
 ---
 
-<div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
-</div>
+<img class="ui medium right floated rounded image" src="../images/stockwindowed.png">
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+This project utlizes [Alpha Vantage](https://www.alphavantage.co/), an API library for financial data, alongside [Pandas library](https://pandas.pydata.org/), which features data structure and data analysis tools. Using these libraries, we are able to gather and plot the intra-day closing values of a designated public company.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+In this project I gained experience manipulating data frames and visualizing the outcome through the Pandas library. 
 
-Here is some code that illustrates how we read values from the line sensors:
+Using stock data, I was able to manipulate the timestamp to display hourly data for two intra-day closing values, and then plot the resulting values. A for-loop was used to plot the values for the numerous stock hours per day, and then write the plots to the web page.  
 
-```js
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
-```
-
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
-
-
-
+Source: <a href="https://github.com/mikepando/Alpha-Vantage-Pandas"><i class="large github icon "></i>mikepando/Alpha-Vantage-Pandas</a>
