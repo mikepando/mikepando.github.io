@@ -23,7 +23,7 @@ The web page displays adjustable search criteria and issues a request for the co
 The database contains around 100 restaurant records scraped from Yelp.
 
 Here is an example of how queries are issued to the database based upon the given criteria:
-```javascript
+```python
 def response():
     minRating=request.form["minRating"]
     category=request.form["category"]
@@ -39,5 +39,8 @@ def response():
     dataList=cursor.execute("select * from company where rating>="+minRating+" and category like '%"+category+"%' order by "+sortstring).fetchall()
     return render_template('results_page.html',data=dataList)
 ```
+
+<img src="../images/pleywindow.png" class="ui large image" />
+<img src="../images/pleyresult.png" class="ui large image" />
 
 Source: <a href="https://github.com/mikepando/yelpDB-Flask-SQLite"><i class="large github icon "></i>mikepando/yelpDB-Flask-SQLite</a>
