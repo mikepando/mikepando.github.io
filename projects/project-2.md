@@ -14,14 +14,15 @@ labels:
 summary: A database was formed using data scraped from Yelp. This project is a web page that explores the database and displays the results. 
 ---
 
+ <img class="ui medium right floated rounded image" src="../images/pleywindow.png"> 
+
 This is a project utilizing Flask and SQLite to allow us to search a database using Python. [Flask](https://www.alphavantage.co/), is a microframework used for local server. [SQLite](https://www.sqlite.org/index.html) is the library used to issue queries to the database.
+
+ <img class="ui medium right floated rounded image" src="../images/pleyresult.png"> 
 
 The web page displays adjustable search criteria and issues a request for the corresponding data from the database. The results are displayed on a secondary web page. 
 
 The database contains around 100 restaurant records scraped from Yelp.
-
-<img src="../images/pleywindow.png" class="ui large image" />
-<img src="../images/pleyresult.png" class="ui large image" />
 
 Here is an example of how queries are issued to the database based upon the given criteria:
 ```python
