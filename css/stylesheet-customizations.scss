@@ -36,11 +36,19 @@ body {
 
 //Change hover menubar color of current page when on current page
 .ui.menu .active.item:hover {
-  color: #A88B60;
+  color: #c;
 }
 
 // Tag pill boxes
 div.ui.basic.label {
-  color: black;
+  color: white;
   background: #CFB690;
+}
+
+// General links
+a {
+  color: #CFB690;
+  &:hover {
+    color: #A88B60;
+  }
 }
