@@ -20,9 +20,9 @@ This is a project utilizing Flask and SQLite to allow us to search a database us
 
 The web page displays adjustable search criteria and issues a request for the corresponding data from the database. The results are displayed on a secondary web page. 
 
-<img class="ui medium right floated rounded image" src="../images/pleyresult.png"> 
-
 The database contains around 100 restaurant records scraped from Yelp.
+
+<img class="ui medium right floated rounded image" src="../images/pleyresult.png"> <br />
 
 Here is an example of how queries are issued to the database based upon the given criteria:
 ```python
