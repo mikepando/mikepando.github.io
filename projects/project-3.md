@@ -10,7 +10,7 @@ labels:
   - Python
   - Flask
   - GitHub
-summary: A project where I created a mock grocery store and billing page using a combination of Flask, Python and HTML.
+summary: A project testing and interpreting user input on a server using a mock Grocery page.
 ---
 
 <img class="ui medium right floated rounded image" src="../images/dlswindow.png"> 
