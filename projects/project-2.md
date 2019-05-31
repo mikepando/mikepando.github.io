@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/pleyicon1.png
+image: images/pley_icon.png
 title: Exploring a Data Scrape
 permalink: projects/yelpDB-Flask-SQLite
 # All dates must be YYYY-MM-DD format!
