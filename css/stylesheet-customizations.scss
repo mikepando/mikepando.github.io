@@ -29,6 +29,16 @@ body {
   color: #2c3e50;
 }
 
+// Home page buttons (projects, essays, cv, etc)
+.ui.basic.button, .ui.basic.buttons .button {
+  background: #E0E1E2 !important;
+  color: rgba(0,0,0,.6) !important;
+
+  &:hover {
+    background: #cacbcd !important;
+    color: rgba(0,0,0,.6) !important;
+}
+
 //Change hover menubar color of other pages except current page
 .ui.menu a.item:hover {
    color: #A88B60;
