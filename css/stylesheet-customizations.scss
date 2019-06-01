@@ -37,8 +37,9 @@ body {
   &:hover {
     background: #cacbcd !important;
     color: rgba(0,0,0,.6) !important;
+  }
 }
-
+  
 //Change hover menubar color of other pages except current page
 .ui.menu a.item:hover {
    color: #A88B60;
