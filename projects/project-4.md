@@ -18,6 +18,7 @@ I designed a geofilter for the multimedia messaging app, Snapchat.
 
 I wanted to create a good representation of Manhattan College, that would allow Snapchat users to express their school pride. 
 
-Geofilters are location based, meaning they are only accessible in certain locations. As a community filter, this had to be submitted and approved by Snapchat. 
+*As a community filter, this had to be submitted and approved by Snapchat.*
+*This filter has been publicly available around the Manhattan College campus since 2016.*
 
-This filter has been publicly available around the Manhattan College campus since 2016. 
+
