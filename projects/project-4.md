@@ -26,8 +26,7 @@ The Chapel is a notable part of Manhattan College as it is the center of the cam
 
 This is how the image appears on a device. The filter is applied in the lower left hand corner. It is clear and distinct on both dark and light backgrounds. 
 
-<hr>
-<img src="../images/snapchat.png" height="480" width="270">
+<img src="../images/snapchat.png" alight="middle" height="480" width="270">
 
 <hr>
 *This filter has been publicly available around the Manhattan College campus since 2016. As a community filter, this had to be submitted and approved by Snapchat.*
