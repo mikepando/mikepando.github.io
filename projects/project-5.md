@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/pley_icon.png
+image: images/mta_ava.png
 title: MTA Subway Station Fare Data
 permalink: projects/MTA-Fare-Data
 # All dates must be YYYY-MM-DD format!
@@ -15,6 +15,9 @@ summary: A project webpage to search the MTA website for the number of MetroCard
 ---
 
 A Python project utilizing the Flask microframework and Pandas library to search the MTA website for the number of MetroCard swipes at each of New YorkCity’s subway stations.
+
+<img class="ui medium right floated rounded image" src="../images/mta_pic.png"> 
+
 
 I designed a main and response page using HTML and Bootstrap CSS, that allows users to select search criteria to display the corresponding swipe totals.
 
